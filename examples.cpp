@@ -25,7 +25,7 @@ int main () {
 
 		cout << "Run again (y/n): ";
 		cin >> question;
-		if((question != 'y') && (question != 'Y')){ keep_running = false; }
+		if((question != 'y'){ keep_running = false; }
 	}
 
 
